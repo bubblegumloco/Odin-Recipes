@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'SpongeBob';
+    src: url(fonts/SpongeBob.ttf);
+}
+
+*{
+    padding: 0; 
+    margin: 0;
+}
+
+body {
+    background-image: url(images/bikibowall.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width:100vh;
+}
+
+.recipe1 {
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(64deg, #a7fa95 33%, #cf9af0 90%, transparent);
+    top: 250px;
+    left: 350px;
+    position: absolute;
+    opacity: 0.5;
+    animation: wave 10s ease-in-out infinite;
+}
+/*Krabby Patty*/
+
+.recipe1 h1{
+    margin:0;
+    padding: 0;
+    font-family: 'SpongeBob', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    color: black;
+}
+
+.recipe2 {
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(50deg, #a7fa95 33%, #cf9af0 90%, transparent);
+    top: 55px;
+    right: 55px;
+    position: absolute;
+    opacity: 0.5;
+    animation: wave 5s ease-in-out infinite;
+}
+
+.recipe2 h1{
+    margin:0;
+    padding: 0;
+    font-family: 'SpongeBob', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    color: black;
+}
+
+/*Kelp Fries*/
+
+.recipe3 {
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(64deg, #cf9af0 33%, #a7fa95 90% ,transparent);
+    top: 433px;
+    right: 390px;
+    position: absolute;
+    opacity: 0.5;
+    animation: wave 8s ease-in-out infinite;
+}
+
+.recipe3 h1{
+    margin:0;
+    padding: 0;
+    font-family: 'SpongeBob', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    color: black;
+}
+
+/*Onion Rings*/
+
+.vmessage {
+    width: 505px;
+    height: 500px;
+    background: linear-gradient(64deg, #a7fa95 33%, #cf9af0 90%, transparent);
+    position: absolute;
+    top: -100px;
+    left: -195px;
+    opacity: .5;
+    z-index: -1;
+    animation: wave 8s ease-in-out infinite;
+} 
+
+.vmessage h2{
+    margin: 0;
+    padding: 0;
+    font-family: 'SpongeBob', sans-serif;
+    font-size: 2.9em;
+    text-align: right;
+    position: relative;
+    top: 40%;
+    right: 4%;
+    color: black;
+}
+
+.title {
+    width: 275px;
+    height: 175px;
+    background: linear-gradient(64deg, #a7fa95 33%, #cf9af0 90%, transparent);
+    bottom: 633px;
+    right: 600px;
+    position: absolute;
+    opacity: .7;
+    animation: wave 8s ease-in-out infinite;
+}
+
+.title h1{
+    margin:0;
+    padding: 0;
+    font-family: 'SpongeBob', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 12%;
+    color: black;
+}
+
+.label {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(78deg, #a7fa95 33%, #cf9af0 90%, transparent);
+    bottom: 10px;
+    left: 400px;
+    position: absolute;
+    opacity: .5;
+    animation: wave 5s ease-in-out infinite;
+}
+
+.label h1{
+    margin:0;
+    padding: 0;
+    font-family: 'SpongeBob', sans-serif;
+    font-size: 1.7em;
+    text-align: center;
+    position: relative;
+    top: 27%;
+    color: black;
+}
+
+
+@keyframes wave {
+    0%, 100% {
+        border-radius: 66% 34% 37% 63% / 57% 31% 69% 43%;
+    }
+        60%{
+            border-radius: 25% 75% 50% 50% / 57% 50% 45% 80%;
+        }     
+}
