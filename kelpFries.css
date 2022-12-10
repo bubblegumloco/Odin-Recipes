@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'SpongeBob';
+    src: url(fonts/SpongeBob.ttf);
+}
+
+
+body {
+    background-image: url(images/jelly.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'SpongeBob', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+img { 
+   float: left;
+   position: relative;
+   left: 40%; 
+   top: -10px;
+}
